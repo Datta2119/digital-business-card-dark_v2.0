@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 317px;
+    height: 900px;
+    left: 65px;
+    top: 53px;
+    
+    /* border: 1px solid black; */
+    border-radius: 10px;
+
+    background-color: #23252C;
+
+    margin: 0px auto;
+}
+
+.container > .image-section{
+    width: 317px;
+    height: 317px;
+    
+    /* border: 1px solid red; */
+    border-radius: 10px 10px 0px 0px;
+    
+    background-image: url('../images/bishway-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -5px;
+    background-position-x: center;
+}
+
+.image-section--name{
+    width: 178.06px;
+    height: 25.81px;
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-top: 20px;
+    margin-left: 74px;
+}
+
+.image-section--designation{
+    width: 178.06px;
+    height: 14.19px;
+
+    margin-top: 12px;
+    margin-left: 74px;
+   
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+   
+    color: #F3BF99;
+}
+
+.image-section--email{
+    width: 228px;
+    height: 16px;
+
+    margin-top: 17px;
+    margin-left: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.email-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+
+    padding: 9px 13px 9px 11px;
+
+    margin-top: 25px;
+    margin-left: 40px;
+    
+    background: #FFFFFF;
+    
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+    border-radius: 6px;
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 16px;
+    gap: 5px;
+}
+
+.email-button >span{
+    padding: 5px;
+}
+
+.email-button--email > .email-button--icon{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.email-button--icon-name{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.linkedin-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+
+    padding: 9px 13px 9px 11px;
+
+    margin-top: 25px;
+    margin-left: 15px;
+    
+    background: #5093E2;
+    
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    gap: 5px;
+}
+
+.linkedin-button >span{
+    padding: 2px;
+}
+
+.linkedin-button > .linkedin-button--icon{
+    font-size: 27px;
+    margin-top: 8px;
+    margin-left: 1px;
+    background-color: transparent;
+}
+
+.linkedin-button--icon-name{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 16px;
+}
+
+.buttons{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    margin-top: -11px;
+    margin-left: -12px;
+    padding: 10px;
+}
+
+
+
+.about-section{
+    width: 269px;
+    height: 148px;
+    /* border: 1px solid red; */
+    /* padding-block: 10px; */
+    margin-top: -380px;
+    margin-left: 543px;
+}
+
+.about-section > h1{
+    width: 242.71px;
+    height: 21px;
+    
+    margin-bottom: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    /* or 24px */
+    
+    
+    color: #F5F5F5;
+}
+
+.about-section > p{
+    overflow-wrap: break-word;
+    width: 247px;
+    height: 61px;
+
+    padding-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: justify;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+}
+
+.interest-section{
+    width: 269px;
+    height: 86px;
+    /* border: 1px solid red; */
+    /* padding-block: 10px; */
+    margin-top: 15px;
+    margin-left: 541px;
+}
+
+.interest-section > h1{
+    width: 242.71px;
+    height: 21px;
+    
+    margin-bottom: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    /* or 24px */
+    
+    
+    color: #F5F5F5;
+}
+
+.interest-section > p{
+    overflow-wrap: break-word;
+    width: 247px;
+    height: 61px;
+
+    padding-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: justify;
+
+    color: #DCDCDC;
+}
+
+.footer-section{
+    width: 317px;
+    height: 64px;
+
+    margin-top: 66px;
+    margin-left: 516px;
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    background-color: #918E9B;
+    margin-top: 22px;
+    margin-left: 42px;
+    gap: 8px;
+}
